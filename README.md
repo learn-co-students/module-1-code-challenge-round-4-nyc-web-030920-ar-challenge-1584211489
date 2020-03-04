@@ -16,8 +16,10 @@ A Manager:
 
   `Manager#name`
     - Returns the manager's name as a string
+
   `Manager#employees`
     - Returns all of the manager's employees
+
   `Manager.all`
     - Returns all of the managers
 
@@ -29,10 +31,13 @@ An Employee:
 
   `Employee#name`
     - Returns the employee's name
+
   `Employee#manager`
     - Returns the employee's manager
+
   `Employee#department`
     - Returns the employee's department
+
   `Employee.all`
     - Returns all of the employees
 
@@ -43,8 +48,10 @@ A Department:
 
   `Department#name`
     - Returns the department's name
+
   `Department#employees`
     - Returns all the department's employees
+
   `Department.all`
     - Returns all the departments
 
@@ -75,6 +82,7 @@ An Employee:
 
   `Employee#specialists`
     - Returns all of the employee's specialists
+
   `Employee.most_calls`
     - Returns the employee with the highest number of calls to Specialists
 
@@ -85,8 +93,10 @@ A Specialist:
 
   `Specialist#name`
     - Returns the specialist's name
+    
   `Specialist#employees`
     - Returns all of the specialist's employees
+    
   `Specialist.all`
     - Returns all of the specialists
 

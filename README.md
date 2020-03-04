@@ -72,7 +72,7 @@ An Employee:
   `Employee#managers`
     - Returns all of the employee's managers
 
-_DO A GIT ADD AND COMMIT WITHE MESSAGE "deliverable 1" AND THEN PROCEED TO THE NEXT DELIVERABLE_
+_*DO A GIT ADD AND COMMIT WITHE MESSAGE "deliverable 1" AND THEN PROCEED TO THE NEXT DELIVERABLE*_
 
 2. Dwight Schrute was just promoted to the "Assistant to the Regional Manager" position to help Michael Scott with his decision. His strategy is to track all of the calls that an employee makes to an IT Specialist (we're just going to call them Specialists) to see who's using the most company minutes on nonsense issues. He needs you to make the necessary updates to the domain and functionality so that the following is true:
 

@@ -14,12 +14,12 @@ A Manager:
 - has a name
 - has many employees
 
-Manager#name
-  - Returns the manager's name as a string
-Manager#employees
-  - Returns all of the manager's employees
-Manager.all
-  - Returns all of the managers
+  `Manager#name`
+    - Returns the manager's name as a string
+  `Manager#employees`
+    - Returns all of the manager's employees
+  `Manager.all`
+    - Returns all of the managers
 
 An Employee:
 
@@ -27,26 +27,26 @@ An Employee:
 - belongs to a Manager
 - belongs to a Department
 
-Employee#name
-  - Returns the employee's name
-Employee#manager
-  - Returns the employee's manager
-Employee#department
-  - Returns the employee's department
-Employee.all
-  - Returns all of the employees
+  `Employee#name`
+    - Returns the employee's name
+  `Employee#manager`
+    - Returns the employee's manager
+  `Employee#department`
+    - Returns the employee's department
+  `Employee.all`
+    - Returns all of the employees
 
 A Department:
 
 - has a name
 - has many Employees
 
-Department#name
-  - Returns the department's name
-Department#employees
-  - Returns all the department's employees
-Department.all
-  - Returns all the departments
+  `Department#name`
+    - Returns the department's name
+  `Department#employees`
+    - Returns all the department's employees
+  `Department.all`
+    - Returns all the departments
 
 However there have been some recent changes to the organization and business needs. Amidst rumors that there will be wide-scale layoffs, he was tasked with firing someone by the end of the month and  that require he makes changes to his app. This is where you come in:
 
@@ -62,8 +62,8 @@ An Employee:
 
 - has many managers
 
-Employee#managers
-  - Returns all of the employee's managers
+  `Employee#managers`
+    - Returns all of the employee's managers
 
 *Do a git add and commit with the message "deliverable 1" and then proceed to the next deliverable*
 
@@ -73,22 +73,22 @@ An Employee:
 
 - has many Specialists
 
-Employee#specialists
-  - Returns all of the employee's specialists
-Employee.most_calls
-  - Returns the employee with the highest number of calls to Specialists
+  `Employee#specialists`
+    - Returns all of the employee's specialists
+  `Employee.most_calls`
+    - Returns the employee with the highest number of calls to Specialists
 
 A Specialist:
 
 - has a name
 - has many Employees
 
-Specialist#name
-  - Returns the specialist's name
-Specialist#employees
-  - Returns all of the specialist's employees
-Specialist.all
-  - Returns all of the specialists
+  `Specialist#name`
+    - Returns the specialist's name
+  `Specialist#employees`
+    - Returns all of the specialist's employees
+  `Specialist.all`
+    - Returns all of the specialists
 
 *Do a git add and commit with the message "deliverable 2" and then proceed to the final deliverable*
 

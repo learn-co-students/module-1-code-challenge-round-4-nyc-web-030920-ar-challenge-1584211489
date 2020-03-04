@@ -72,7 +72,7 @@ An Employee:
   `Employee#managers`
     - Returns all of the employee's managers
 
-_\*DO A GIT ADD AND COMMIT WITHE MESSAGE "deliverable 1" AND THEN PROCEED TO THE NEXT DELIVERABLE\*_
+_\*\*DO A GIT ADD AND COMMIT WITHE MESSAGE "deliverable 1" AND THEN PROCEED TO THE NEXT DELIVERABLE\*\*_
 
 2. Dwight Schrute was just promoted to the "Assistant to the Regional Manager" position to help Michael Scott with his decision. His strategy is to track all of the calls that an employee makes to an IT Specialist (we're just going to call them Specialists) to see who's using the most company minutes on nonsense issues. He needs you to make the necessary updates to the domain and functionality so that the following is true:
 
@@ -100,7 +100,7 @@ A Specialist:
   `Specialist.all`
     - Returns all of the specialists
 
-*Do a git add and commit with the message "deliverable 2" and then proceed to the final deliverable*
+_\*\*DO A GIT ADD AND COMMIT WITHE MESSAGE "deliverable 2" AND THEN PROCEED TO THE NEXT DELIVERABLE\*\*_
 
 3. It turns out Michael Scott lied to Corporate and told them he wrote this entire app himself and gave you no credit. Now that it's getting so much attention he's being asked to present the app to Corporate. The only problem is he has no idea what's going on! He needs you to complete the questions below to help with his presentation:
 
@@ -120,4 +120,4 @@ A Specialist:
   
     Answer Here:
 
-*Do a git add and commit with the message "deliverable 3" and then proceed to the final deliverable*# 
+_\*\*DO A GIT ADD AND COMMIT WITHE MESSAGE "deliverable 3" AND THEN PROCEED TO THE NEXT DELIVERABLE\*\*_

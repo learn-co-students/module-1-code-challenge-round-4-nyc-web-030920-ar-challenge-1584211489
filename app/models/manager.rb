@@ -1,4 +1,5 @@
 class Manager < ActiveRecord::Base
-    has_many :employees
+    has_many :ems
+    has_many :employees, through: :ems 
     
 end

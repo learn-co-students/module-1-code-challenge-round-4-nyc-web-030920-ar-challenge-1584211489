@@ -7,7 +7,7 @@ class Employee < ActiveRecord::Base
     belongs_to :department
 
     def self.most_calls
-    self.maximum(:callstospecialists)
+        self.maximum(:callstospecialists)
         end
     binding.pry
 end

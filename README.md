@@ -106,18 +106,18 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:
+    Answer Here: Employee has department's foreign key. Specialistemployeejoiner has foreign keys of both employee and specialists. Officejoiner has foreign keys of both manager and employee. 
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here:
+    Answer Here: Active record created all except for Employee.most_calls
 
   How do you know when you need to use a join table?
 
-    Answer Here:
+    Answer Here: Any time there is a many to many. 
 
   What is/are the join table(s) in this application?
 
-    Answer Here:
+    Answer Here: Officejoiner and Specialistemployeejoiner
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_

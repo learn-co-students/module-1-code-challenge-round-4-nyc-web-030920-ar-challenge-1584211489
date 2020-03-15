@@ -6,15 +6,17 @@ class Employee < ActiveRecord::Base
     has_many :specialists, through: :ess 
 
 
-    def specialist 
+    def that_employees_in_es 
         ES.select do |es|
             es.employee == self 
         end 
     end 
 
-    def self.most_calls 
-        specialist.find {|spe| spe.specila }
+    def self.most_calls
+    
 
     end 
+
+
 
 end

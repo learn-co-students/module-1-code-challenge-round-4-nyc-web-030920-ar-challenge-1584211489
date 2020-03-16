@@ -106,7 +106,7 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:Workplace, tasks, employees 
+    Answer Here:Workplace, Tasks, Employees 
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
@@ -118,6 +118,6 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   What is/are the join table(s) in this application?
 
-    Answer Here:workplaces, employees and tasks 
+    Answer Here: Workplaces, Employees and Tasks 
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_

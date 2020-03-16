@@ -6,7 +6,9 @@ class Employee < ActiveRecord::Base
     has_many :specialists, through: :tasks 
 
 def self.most_calls
- 
+   self.all.max_by do |employee|
+    employee.specialists.count
+   end 
 end 
 
 
